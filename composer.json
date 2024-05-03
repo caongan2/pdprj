@@ -6,13 +6,13 @@
     "autoload": {
         "psr-4": {
             "App\\": "app/",
-            "Iluminate\\Routing\\": "src/"
+            "Iluminate\\Routing\\": "src/Iluminate/Routing/"
         }
     },
     "autoload-dev": {
         "psr-4": {
             "Tests\\": "tests/",
-            "Iluminate\\Routing\\": "src/Illuminate/Routing/"
+            "Iluminate\\Routing\\": "src/Iluminate/Routing/"
         }
     },
     "require": {
