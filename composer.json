@@ -8,7 +8,8 @@
             "App\\": "app/",
             "Illuminate\\Routing\\": "src/Illuminate/Routing/",
             "Iluminate\\Foundation\\Auth\\Access\\" : "src/Illuminate/Foundation/Auth/Access",
-            "Iluminate\\Foundation\\Validation\\": "src/Illuminate/Foundation/Validation/"
+            "Iluminate\\Foundation\\Validation\\": "src/Illuminate/Foundation/Validation/",
+            "Iluminate\\Foundation\\": "src/Illuminate/Foundation/"
         }
     },
     "autoload-dev": {
@@ -16,7 +17,8 @@
             "Tests\\": "tests/",
             "Illuminate\\Routing\\": "src/Illuminate/Routing/",
             "Iluminate\\Foundation\\Auth\\Access\\" : "src/Illuminate/Foundation/Auth/Access",
-            "Iluminate\\Foundation\\Validation\\": "src/Illuminate/Foundation/Validation/"
+            "Iluminate\\Foundation\\Validation\\": "src/Illuminate/Foundation/Validation/",
+            "Iluminate\\Foundation\\": "src/Illuminate/Foundation/"
         }
     },
     "require": {
