@@ -7,8 +7,6 @@
         "psr-4": {
             "App\\": "app/",
             "Illuminate\\Routing\\": "src/Illuminate/Routing/",
-            "Iluminate\\Foundation\\Auth\\Access\\" : "src/Illuminate/Foundation/Auth/Access",
-            "Iluminate\\Foundation\\Validation\\": "src/Illuminate/Foundation/Validation/",
             "Iluminate\\Foundation\\": "src/Illuminate/Foundation/"
         }
     },
@@ -16,8 +14,6 @@
         "psr-4": {
             "Tests\\": "tests/",
             "Illuminate\\Routing\\": "src/Illuminate/Routing/",
-            "Iluminate\\Foundation\\Auth\\Access\\" : "src/Illuminate/Foundation/Auth/Access",
-            "Iluminate\\Foundation\\Validation\\": "src/Illuminate/Foundation/Validation/",
             "Iluminate\\Foundation\\": "src/Illuminate/Foundation/"
         }
     },
