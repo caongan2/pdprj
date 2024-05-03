@@ -1,5 +1,5 @@
 <?php
-namespace Iluminate\Routing;
+namespace Illuminate\Routing;
 
 class BaseController
 {
