@@ -1,6 +1,6 @@
 <?php
 
-namespace Illuminate\Foundation\Auth\Access;
+namespace Iluminate\Foundation\Auth\Access;
 
 use Illuminate\Contracts\Auth\Access\Gate;
 use Illuminate\Support\Str;

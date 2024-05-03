@@ -1,6 +1,6 @@
 <?php
 
-namespace Illuminate\Foundation\Validation;
+namespace Iluminate\Foundation\Validation;
 
 use Illuminate\Contracts\Validation\Factory;
 use Illuminate\Foundation\Precognition;
