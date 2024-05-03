@@ -12,7 +12,7 @@
     "autoload-dev": {
         "psr-4": {
             "Tests\\": "tests/",
-            "Iluminate\\Routing\\": "src/"
+            "Iluminate\\Routing\\": "src/Illuminate/Routing/"
         }
     },
     "require": {
