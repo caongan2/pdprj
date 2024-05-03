@@ -1,0 +1,12 @@
+{
+    "name": "pdprj/pdprj",
+    "description": "Description",
+    "type": "library",
+    "license": "MIT",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Pdprj": "src/Pdprj/"
+        }
+    }
+}
