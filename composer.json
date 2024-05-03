@@ -3,13 +3,23 @@
     "description": "Description",
     "type": "library",
     "license": "MIT",
-    "require": {
-        "php": "^7.3|^8.0",
-        "illuminate/support": "^8.0|^9|^10|^11"
-    },
     "autoload": {
         "psr-4": {
             "Pdprj\\": "src/"
         }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Pdprj\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^7.1 || ^8.0",
+        "ext-dom": "*",
+        "ext-mbstring": "*"
+    },
+    "require-dev": {
+        "ext-json": "*",
+        "ext-zip": "*"
     }
 }
