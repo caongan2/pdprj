@@ -23,7 +23,7 @@
         "php": "^7.1 || ^8.0",
         "ext-dom": "*",
         "ext-mbstring": "*",
-        "laravel/framework": "^11.6"
+        "laravel/framework": "^10.0"
     },
     "require-dev": {
         "ext-json": "*",
