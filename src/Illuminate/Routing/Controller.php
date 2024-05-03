@@ -1,6 +1,6 @@
 <?php
-namespace Illuminate\Routting\Controller;
-use Illuminate\Routting\BaseController;
+namespace Iluminate\Routing;
+use Iluminate\Routing\BaseController;
 
 class Controller extends BaseController
 {
