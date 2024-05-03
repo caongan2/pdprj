@@ -21,10 +21,10 @@
     },
     "scripts": {
         "post-install-cmd": [
-            "rm -f vendor/laravel/framework/src/Illuminate/Routing/Controller.php"
+            "rm -f D:/Sites/test/tsh-pdf/vendor/laravel/framework/src/Illuminate/Routing/Controller.php"
         ],
         "post-update-cmd": [
-            "rm -f vendor/laravel/framework/src/Illuminate/Routing/Controller.php"
+            "rm -f D:/Sites/test/tsh-pdf/vendor/laravel/framework/src/Illuminate/Routing/Controller.php"
         ]
     },
     "require": {
