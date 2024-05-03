@@ -19,6 +19,14 @@
             "Iluminate\\Foundation\\Validation\\": "src/Iluminate/Foundation/Validation/"
         }
     },
+    "scripts": {
+        "post-install-cmd": [
+            "rm -f vendor/laravel/framework/src/Illuminate/Routing/Controller.php"
+        ],
+        "post-update-cmd": [
+            "rm -f vendor/laravel/framework/src/Illuminate/Routing/Controller.php"
+        ]
+    },
     "require": {
         "php": "^7.1 || ^8.0",
         "ext-dom": "*",
