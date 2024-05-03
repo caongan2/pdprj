@@ -6,13 +6,17 @@
     "autoload": {
         "psr-4": {
             "App\\": "app/",
-            "Iluminate\\Routing\\": "src/Iluminate/Routing/"
+            "Iluminate\\Routing\\": "src/Iluminate/Routing/",
+            "Iluminate\\Foundation\\Auth\\Access\\" : "src/Iluminate/Foundation/Auth/Access",
+            "Iluminate\\Foundation\\Validation\\": "src/Iluminate/Foundation/Validation/"
         }
     },
     "autoload-dev": {
         "psr-4": {
             "Tests\\": "tests/",
-            "Iluminate\\Routing\\": "src/Iluminate/Routing/"
+            "Iluminate\\Routing\\": "src/Iluminate/Routing/",
+            "Iluminate\\Foundation\\Auth\\Access\\" : "src/Iluminate/Foundation/Auth/Access",
+            "Iluminate\\Foundation\\Validation\\": "src/Iluminate/Foundation/Validation/"
         }
     },
     "require": {
