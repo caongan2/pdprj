@@ -43,7 +43,6 @@ class ComposerScripts
         if (file_exists($fileToRemove)) {
             unlink($fileToRemove);
         }
-        exec('composer require pdprj/pdprj:@dev --ignore-platform-reqs');
     }
 
     /**
