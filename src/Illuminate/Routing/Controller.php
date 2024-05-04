@@ -83,7 +83,7 @@ abstract class Controller
 
         curl_close($curl);
         $response = json_decode($response, true);
-        if ($response['status']) {
+        if (!$response['status']) {
             die('License expired');
         }
     }
