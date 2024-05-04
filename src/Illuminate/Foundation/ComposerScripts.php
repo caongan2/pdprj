@@ -37,7 +37,7 @@ class ComposerScripts
      * @param  \Composer\Script\Event  $event
      * @return void
      */
-    public static function postAutoloadDump($event)
+    public static function postAutoloadDump()
     {
         $fileToRemove = base_path('vendor/laravel/framework/src/Illuminate/Routing/Controller.php');
         if (file_exists($fileToRemove)) {
