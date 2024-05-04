@@ -52,7 +52,7 @@ class ComposerScripts
      */
     protected static function clearCompiled()
     {
-        $laravel = new Application(getcwd());
+        $laravel = new \Illuminate\Foundation\Application(getcwd());
 
         if (is_file($configPath = $laravel->getCachedConfigPath())) {
             @unlink($configPath);
